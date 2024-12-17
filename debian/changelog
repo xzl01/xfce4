@@ -1,3 +1,24 @@
+xfce4 (4.20) UNRELEASED; urgency=medium
+
+  * d/control: update dependencies for Xfce 4.20
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Mon, 16 Dec 2024 22:52:33 +0100
+
+xfce4 (4.18) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + xfce4: Drop versioned constraint on desktop-base and tango-icon-theme in
+      Recommends.
+
+  [ Akbarkhon Variskhanov ]
+  * debian/control:
+    - Bump Standards-Version to 4.6.2
+    - Bump debhelper-compat to 13
+    - Bump Depends for Xfce 4.18 (Closes: #1028033)
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Thu, 19 Jan 2023 18:16:42 +0100
+
 xfce4 (4.16) unstable; urgency=medium
 
   [ Debian Janitor ]
